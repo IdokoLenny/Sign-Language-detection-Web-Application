@@ -72,8 +72,8 @@ app_mode = st.sidebar.selectbox('Choose the App mode',
 )
 
 if app_mode =='Select Mode':
-    st.title('Sign Language Detection Using MediaPipe with Streamlit GUI')
-    st.markdown('In this application we are using **MediaPipe** for detecting Sign Language. **SpeechRecognition** Library of python to recognise the voice and machine learning algorithm which convert speech to the Indian Sign Language .**StreamLit** is to create the Web Graphical User Interface (GUI) ')
+    st.title('HealthPRO Sign Language Detection System')
+    st.markdown('In this application we are using **MediaPipe** for detecting Sign Language. **SpeechRecognition** Library of python to recognise the voice and machine learning algorithm which convert speech to the Indian Sign Language . ')
     st.markdown(
     """
     <style>
@@ -98,8 +98,7 @@ if app_mode =='Select Mode':
                communication gaps, we strive to enhance accessibility and improve healthcare outcomes for all. 
                Join us in transforming the way healthcare is delivered, one sign at a time.
                 Also check us out on Social Media
-                - [Instagram](https://www.instagram.com/healthpro380)
-                
+                - [Instagram](https://www.instagram.com/healthpro380)               
                 - [Facebook](https://www.facebook.com/profile.php?id=61556613950723&mibextid=rS40aB7S9Ucbxw6v) \n
               If you are facing any issue while working feel free to mail us on **healthpro380@gmail.com** \n
               Special credit to **edlabadkarsameer**
