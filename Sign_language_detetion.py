@@ -40,7 +40,7 @@ st.markdown(
 st.sidebar.title('HEALTHPRO - Sign Language Detection System')
 st.sidebar.subheader('-Parameter')
 
-@st.cache()
+@st.cache_resource()
 def image_resize(image, width=None, height=None, inter=cv2.INTER_AREA):
 
     dim = None
